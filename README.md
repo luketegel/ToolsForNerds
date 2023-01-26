@@ -3,4 +3,5 @@ Includes tools for nerds you can use in a terminal. This is a project I have bee
 
 Current tools:
 Number generator from values that the user sets.
+GUI will come eventually.
 
