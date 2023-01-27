@@ -1,5 +1,6 @@
 import random
-
+import os
+import time
 
 value1 = 1
 value2 = 100
@@ -26,4 +27,23 @@ if __name__ == "__main__":
 
 
 print("script ran successfully!")
-##END OF SCRIPT##
+
+print("Type 1 to exit the program")
+print("Type 2 to run the program again")
+
+
+
+while True:
+    user_input = input("Enter input here: ")
+    if user_input == "1":
+        print("Exiting program...")
+        break
+    elif user_input == "2":
+        print("Running program again...")
+        os.system("python numbergenerator1100.py")
+
+    else:
+        print("Invalid input, please try again")
+
+
+
